@@ -41,7 +41,7 @@ table {
 
 h1 {
   font-size: 25px;
-  color: #969696;
+  color: #b1b1b1;
 }
 
 
@@ -49,11 +49,11 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 55px;
-  color: #969696;
+  color: #b1b1b1;
 }
 h3 {
   font-size: 23px;
-  color: #969696;
+  color: #b1b1b1;
 }
 
 
@@ -73,7 +73,7 @@ body {
   position: relative;
   outline: 10px solid rgba(255, 255, 255, 0.86);
   text-align: center;
-  border: 1px solid #969696;
+  border: 1px solid #bfbfbf;
   padding: 10px;
 }
 
@@ -92,7 +92,7 @@ h1:after {
   position: absolute;
       content: "";
       height: 2px;
-      background-color: #969696;
+      background-color: #bfbfbf;
       width: 60px;
       margin-left: 15px;
       top: 61px;
@@ -101,7 +101,7 @@ h1:before {
   position: absolute;
   content: "";
   height: 2px;
-  background-color: #969696;
+  background-color: #bfbfbf;
   width: 60px;
   margin-left: -73px;
   top: 61px;
@@ -110,7 +110,7 @@ h1:before {
 
 .under {
   padding: 40px;
-  border: 1px solid #969696;
+  border: 1px solid #bfbfbf;
 }
 .under2 {
   padding: 20px;
