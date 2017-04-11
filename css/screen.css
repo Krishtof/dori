@@ -1,0 +1,137 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+h1 {
+  font-size: 25px;
+  color: #969696;
+}
+
+
+
+h2 {
+  font-size: 40px;
+  line-height: 55px;
+  color: #969696;
+}
+h3 {
+  font-size: 23px;
+  color: #969696;
+}
+
+
+body {
+  background-image: url("../img/ekszer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: right;
+}
+
+.border {
+  background: rgba(255, 255, 255, 0.86);
+  max-width: 400px;
+  margin: 0 auto;
+  top: 50px;
+  position: relative;
+  outline: 10px solid rgba(255, 255, 255, 0.86);
+  text-align: center;
+  border: 1px solid #969696;
+  padding: 10px;
+}
+
+
+.border2 h2, .border2 h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.border2 {
+  max-width: 300px;
+  margin-top: 50px;
+}
+h1:after {
+  position: absolute;
+      content: "";
+      height: 2px;
+      background-color: #969696;
+      width: 60px;
+      margin-left: 15px;
+      top: 61px;
+     }
+h1:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #969696;
+  width: 60px;
+  margin-left: -73px;
+  top: 61px;
+}
+
+
+.under {
+  padding: 40px;
+  border: 1px solid #969696;
+}
+.under2 {
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .border {
+    max-width: 300px;
+  }
+  h1:after {
+    display: none;
+  }
+  h1::before {
+    display: none;
+  }
+  .border2 {
+    max-width: 250px;
+  }
+}
+.logo {
+  width: 50px;
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   margin-left: -25px;
+}
