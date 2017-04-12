@@ -132,7 +132,27 @@ h1:before {
 .logo {
   width: 5vh;
    position: absolute;
-   bottom: 4vh;
+   bottom: 17vh;
    left: 50%;
    margin-left: -25px;
+}
+@media (max-width: 500px) {
+  .border {
+    max-width: 300px;
+  }
+  h1:after {
+    display: none;
+  }
+  h1::before {
+    display: none;
+  }
+  .border2 {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 920px) {
+  .logo {
+   bottom: 4vh;
+  }
 }
