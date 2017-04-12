@@ -130,7 +130,7 @@ h1:before {
   }
 }
 .logo {
-  width: 5vh;
+  width: 7vh;
    position: absolute;
    bottom: 17vh;
    left: 50%;
@@ -154,5 +154,6 @@ h1:before {
 @media (max-width: 920px) {
   .logo {
    bottom: 4vh;
+   width: 5vh;
   }
 }
