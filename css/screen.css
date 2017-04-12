@@ -132,7 +132,7 @@ h1:before {
 .logo {
   width: 5vh;
    position: absolute;
-   bottom: 20px;
+   bottom: 4vh;
    left: 50%;
    margin-left: -25px;
 }
